@@ -1,0 +1,12 @@
+$ cat .gitignore
+
+#Ignorar tudo que inicia com . (ponto)
+.*
+!.gitignore
+
+target/**/*
+
+*/target/**/*
+**/target/
+*~
+
